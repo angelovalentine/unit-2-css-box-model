@@ -3,11 +3,20 @@
 ============================================================== */
 
 .box {
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 600px;
+  height: 300px;
+  padding: 20px;
+  border: 2px solid #2fa9c7;
+  margin: auto;
+  overflow:scrolling
+}
+
+
   
   /* Apply a fluid width of 90% and a height of 300px. 
   The width of .box should get no wider than 600px. */  
-
-
 
 
   /* Add 20 pixels of padding on all four sides. */
@@ -24,8 +33,9 @@
   
   /* Force border-width and padding values into the total width and height of .box */
 
-  
-}
+
+
+  /* Didn't match the spec of box.png, but will revisit later this week. */
 
 
 
